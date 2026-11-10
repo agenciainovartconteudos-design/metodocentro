@@ -975,6 +975,41 @@ export function SettingPanel({
     </Panel>
   );
 }
+export function CompassCursor({ image, alt = "Bússola flutuante" }: { image: string; alt?: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+  const pos = useRef({ x: 0, y: 0 });
+  const target = useRef({ x: 0, y: 0 });
+  useEffect(() => {
+    const onMove = (e: MouseEvent) => {
+      target.current = { x: e.clientX, y: e.clientY };
+      setVisible(true);
+    };
+    const onLeave = () => setVisible(false);
+    window.addEventListener("mousemove", onMove);
+    window.addEventListener("mouseleave", onLeave);
+    let raf: number;
+    const loop = () => {
+      pos.current.x += (target.current.x - pos.current.x) * 0.12;
+      pos.current.y += (target.current.y - pos.current.y) * 0.12;
+      if (ref.current) {
+        ref.current.style.transform = `translate(${pos.current.x + 26}px, ${pos.current.y + 26}px) translate(-50%, -50%)`;
+      }
+      raf = requestAnimationFrame(loop);
+    };
+    raf = requestAnimationFrame(loop);
+    return () => {
+      window.removeEventListener("mousemove", onMove);
+      window.removeEventListener("mouseleave", onLeave);
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+  return (
+    <div className={`compass-cursor ${visible ? "visible" : ""}`} ref={ref} aria-hidden="true">
+      <img src={image} alt={alt} />
+    </div>
+  );
+}
 export const commonNav = (
   primary: string,
   icon: React.ReactNode = <LayoutDashboard size={18} />,

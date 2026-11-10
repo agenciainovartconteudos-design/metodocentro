@@ -3,54 +3,91 @@
   "templateId": "portfolio",
   "locale": "pt-BR",
   "branding": {
-    "name": "Lina Rocha",
-    "shortName": "LR",
-    "tagline": "DESIGNER INDEPENDENTE"
+    "name": "Alessandra Pereira",
+    "shortName": "AP",
+    "tagline": "ESTRATÉGIA, MARCA E CRESCIMENTO"
   },
   "theme": {
-    "mode": "dark",
-    "accent": "#d4fa9c",
-    "accentText": "#102014",
-    "background": "#121313",
-    "surface": "#1d2020",
-    "text": "#eef3f2",
-    "muted": "#95a7ac",
-    "line": "#ffffff16",
-    "serif": false,
-    "radius": 14
+    "mode": "light",
+    "accent": "#8a1f2d",
+    "accentText": "#ffffff",
+    "background": "#f7f5ef",
+    "surface": "#ffffff",
+    "text": "#1a2420",
+    "muted": "#6b7570",
+    "line": "#15291f12",
+    "serif": true,
+    "radius": 10
   },
   "content": {
-    "headline": "Ideias que ganham\nforma. E fazem sentido.",
-    "description": "Design de marcas e experiências digitais para negócios em movimento.",
-    "eyebrow": "DESIGNER INDEPENDENTE",
-    "cta": "Começar agora",
-    "heroImage": "abstract.webp"
+    "headline": "Encontrar a rota certa\npara o seu negócio.",
+    "description": "Estratégia, posicionamento e crescimento para marcas e profissionais que querem clareza antes de qualquer campanha.",
+    "eyebrow": "MÉTODO CENTRO",
+    "cta": "Vamos conversar",
+    "heroImage": "compass-velvet.jpg",
+    "aboutPhoto": "alessandra-sobre.jpg",
+    "aboutEyebrow": "MUITO PRAZER, EU SOU A ALESSANDRA.",
+    "aboutTitle1": "Eu ajudo negócios a encontrar",
+    "aboutTitleEm": "direção antes de crescer.",
+    "aboutText": "Atuo na ponte entre estratégia e marca: organizo oferta, posicionamento e comunicação para que cada ação, do orgânico ao tráfego pago, tenha um norte claro. Já guiei projetos de advocacia, marca pessoal, eventos e varejo rumo a resultados mensuráveis."
   },
   "collections": {
     "projects": [
       {
         "id": "1",
-        "title": "Aurora — uma nova direção",
-        "category": "Identidade visual",
-        "image": "abstract.webp",
-        "date": "2026",
-        "description": "Um sistema visual expressivo para uma marca em transformação."
+        "title": "Posicionamento jurídico que virou autoridade",
+        "client": "Raphael Farias | Advocacia",
+        "category": "Branding & Estratégia",
+        "image": "case-raphael.jpg",
+        "images": ["case-raphael.jpg"],
+        "resultLabel": "Visualizações",
+        "resultValue": "681,7 mil",
+        "resultLabel2": "Interações no perfil",
+        "resultValue2": "83,2 mil",
+        "summary": "Conteúdo jurídico orgânico e posicionamento profissional, sem depender de mídia paga no início.",
+        "details": "O projeto buscou fortalecer a percepção de especialização profissional e consolidar a presença digital de Raphael Farias sem depender, no início, de mídia paga. A estratégia aplicada envolveu posicionamento profissional, linha editorial, conteúdo jurídico orgânico e comunicação informativa com regularidade. O resultado em destaque foi o crescimento de seguidores qualificados por conteúdo orgânico e o fortalecimento da presença profissional, aproximando conhecimento técnico e comunicação clara."
       },
       {
         "id": "2",
-        "title": "Forma — objetos com intenção",
-        "category": "E-commerce",
-        "image": "product.webp",
-        "date": "2026",
-        "description": "Uma experiência de compra centrada no produto e nas pessoas."
+        "title": "8x no valor cobrado após reposicionamento",
+        "client": "Alessandra Pereira | Marca pessoal",
+        "category": "Branding & Reposicionamento",
+        "image": "case-alessandra.jpg",
+        "images": ["case-alessandra.jpg"],
+        "resultLabel": "De R$500 para",
+        "resultValue": "R$4.201",
+        "resultLabel2": "Variação",
+        "resultValue2": "8,4x",
+        "summary": "Reposicionamento da própria marca pessoal: de execução avulsa para direção estratégica e autoridade.",
+        "details": "O próprio projeto de marca pessoal exigiu sair da percepção de execução avulsa para apresentar direção estratégica, clareza de oferta e autoridade. A estratégia aplicada foi reposicionamento, identidade, narrativa, organização da esteira comercial, comunicação de valor e materiais de apresentação. O resultado foi a evolução de R$500 para R$4.201 no valor cobrado por entrega comparada — quando oferta e posicionamento ficam mais claros, o mercado compreende uma entrega mais estratégica."
       },
       {
         "id": "3",
-        "title": "Átrio — espaços para viver",
-        "category": "Website",
-        "image": "architecture.webp",
-        "date": "2025",
-        "description": "Uma presença digital com o mesmo cuidado de cada projeto."
+        "title": "De simuladores a oportunidades B2B",
+        "client": "VR World Experience",
+        "category": "Branding & Comercial",
+        "image": "case-vr-world.jpg",
+        "images": ["case-vr-world.jpg"],
+        "resultLabel": "Em vendas",
+        "resultValue": "R$121,8 mil",
+        "resultLabel2": "Em propostas",
+        "resultValue2": "+R$90 mil",
+        "summary": "Reposicionamento comercial que transformou comunicação em oportunidades reais com marcas e agências.",
+        "details": "A VR World precisava profissionalizar sua presença, fortalecer o posicionamento B2B e transformar a comunicação em oportunidades com marcas, agências e organizadores de eventos. A estratégia envolveu branding, reposicionamento comercial, proposta de valor, conteúdo estratégico, gestão de redes e campanhas de aquisição. Não se tratou apenas de divulgar simuladores: o projeto organizou uma narrativa comercial para vender experiências e abriu espaço para negociações de maior valor."
+      },
+      {
+        "id": "4",
+        "title": "Tráfego pago com retorno de 25x sobre mídia",
+        "client": "Hiper Móveis",
+        "category": "Gestão de tráfego",
+        "image": "case-hiper-moveis.jpg",
+        "images": ["case-hiper-moveis.jpg"],
+        "resultLabel": "Em vendas",
+        "resultValue": "R$16.037",
+        "resultLabel2": "Resultado contínuo",
+        "resultValue2": "+36 meses",
+        "summary": "R$628,71 investidos em mídia geraram R$16.037 em vendas já no primeiro mês de parceria.",
+        "details": "No primeiro mês de trabalho com a Hiper Móveis: R$628,71 investidos em mídia, aproximadamente 80 mensagens geradas e R$16.037 em vendas atribuídas às campanhas — uma relação aproximada de 25,5 vezes entre faturamento atribuído e mídia. A parceria permaneceu ativa por aproximadamente três anos, com gestão de tráfego aliada à intervenção comercial."
       }
     ]
   }

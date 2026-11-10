@@ -24,6 +24,14 @@ export type Entity = {
   bedrooms?: number;
   area?: number;
   rating?: number;
+  client?: string;
+  resultLabel?: string;
+  resultValue?: string;
+  resultLabel2?: string;
+  resultValue2?: string;
+  summary?: string;
+  details?: string;
+  images?: string[];
 };
 export type Theme = {
   mode: "light" | "dark";
