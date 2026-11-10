@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "templateId": "portfolio",
+  "locale": "pt-BR",
+  "branding": {
+    "name": "Lina Rocha",
+    "shortName": "LR",
+    "tagline": "DESIGNER INDEPENDENTE"
+  },
+  "theme": {
+    "mode": "dark",
+    "accent": "#d4fa9c",
+    "accentText": "#102014",
+    "background": "#121313",
+    "surface": "#1d2020",
+    "text": "#eef3f2",
+    "muted": "#95a7ac",
+    "line": "#ffffff16",
+    "serif": false,
+    "radius": 14
+  },
+  "content": {
+    "headline": "Ideias que ganham\nforma. E fazem sentido.",
+    "description": "Design de marcas e experiências digitais para negócios em movimento.",
+    "eyebrow": "DESIGNER INDEPENDENTE",
+    "cta": "Começar agora",
+    "heroImage": "abstract.webp"
+  },
+  "collections": {
+    "projects": [
+      {
+        "id": "1",
+        "title": "Aurora — uma nova direção",
+        "category": "Identidade visual",
+        "image": "abstract.webp",
+        "date": "2026",
+        "description": "Um sistema visual expressivo para uma marca em transformação."
+      },
+      {
+        "id": "2",
+        "title": "Forma — objetos com intenção",
+        "category": "E-commerce",
+        "image": "product.webp",
+        "date": "2026",
+        "description": "Uma experiência de compra centrada no produto e nas pessoas."
+      },
+      {
+        "id": "3",
+        "title": "Átrio — espaços para viver",
+        "category": "Website",
+        "image": "architecture.webp",
+        "date": "2025",
+        "description": "Uma presença digital com o mesmo cuidado de cada projeto."
+      }
+    ]
+  }
+}
