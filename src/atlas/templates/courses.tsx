@@ -11,6 +11,14 @@ import {
 } from "lucide-react";
 import type { TemplateProps, Entity } from "../types";
 import { list } from "../types";
+import coursesHero from "@/assets/courses-hero.webp";
+import courseDesign from "@/assets/course-design.webp";
+import courseCreative from "@/assets/course-creative.webp";
+const courseImageMap: Record<string, string> = {
+  "education.webp": coursesHero,
+  "abstract.webp": courseDesign,
+  "architecture.webp": courseCreative,
+};
 import {
   AppFrame,
   PageHead,
@@ -78,7 +86,7 @@ export default function Courses({ config }: TemplateProps) {
                 </Button>
               </div>
               <Photo
-                name={config.content.heroImage}
+                name={courseImageMap[config.content.heroImage] || coursesHero}
                 alt="Sala criativa com luz natural"
                 loading="eager"
               />
@@ -104,7 +112,7 @@ export default function Courses({ config }: TemplateProps) {
             {filtered.map((c) => (
               <article className="course-card" key={c.id}>
                 <div className="course-cover">
-                  <Photo name={c.image || "education.webp"} alt={c.title} />
+                  <Photo name={courseImageMap[c.image || "education.webp"] || coursesHero} alt={c.title} />
                   <Badge>{c.category}</Badge>
                   <button
                     aria-label={`Abrir curso ${c.title}`}
@@ -152,7 +160,7 @@ export default function Courses({ config }: TemplateProps) {
           <div className="lesson-view">
             <div className="lesson-cover">
               <Photo
-                name={lesson.image || "education.webp"}
+                name={courseImageMap[lesson.image || "education.webp"] || coursesHero}
                 alt={lesson.title}
               />
               <Badge>AULA EM TEXTO · DEMONSTRAÇÃO</Badge>
