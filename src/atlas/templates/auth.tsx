@@ -3,7 +3,7 @@ import { CheckCircle2, LogOut, LayoutDashboard } from "lucide-react";
 import type { TemplateProps } from "../types";
 import { AuthPanel } from "../shared/auth-panel";
 import { Brand, Button } from "../shared/ui";
-import authHero from "@/assets/auth-hero.webp";
+import authHero from "@/assets/upload-1794342852140-2.jpg";
 export default function Auth({ config, imageSrc }: TemplateProps & { imageSrc?: string }) {
   const [entered, setEntered] = useState(false);
   return entered ? (
