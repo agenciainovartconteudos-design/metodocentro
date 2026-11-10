@@ -14,6 +14,7 @@ import {
 } from "../shared/ui";
 import compassImg from "@/assets/upload-1794346350293-1.jpg";
 import aboutPhoto from "@/assets/upload-1794346350293-2.jpg";
+import heroBgImg from "@/assets/upload-1794346925765-1.jpg";
 
 function CaseCarousel({ images, title }: { images: string[]; title: string }) {
   const [index, setIndex] = useState(0);
@@ -80,7 +81,7 @@ export default function Portfolio({ config }: TemplateProps) {
       <main id="main" className="web-main">
         <section className="portfolio-hero">
           <div className="portfolio-hero-bg" aria-hidden="true">
-            <img src={compassImg} alt="" />
+            <img src={heroBgImg} alt="" />
           </div>
           <div className="portfolio-kicker hero-enter">
             <span>CONSULTORIA DE ESTRATÉGIA, MARCA E CRESCIMENTO</span>
