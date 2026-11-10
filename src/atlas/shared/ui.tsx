@@ -87,7 +87,7 @@ export function TemplateRoot({
     "--accent": t.accent,
     "--on-accent": t.accentText,
     "--radius": `${t.radius ?? 14}px`,
-    "--display": t.serif ? "Georgia, serif" : "Manrope, sans-serif",
+    "--display": t.serif ? "'Playfair Display', Georgia, serif" : "'Playfair Display', Manrope, sans-serif",
   };
   const feedback = <div className={`toast ${toast ? "visible" : ""}`} role="status" aria-live="polite"><CheckCircle2 size={19}/>{toast}</div>;
   return (
