@@ -12,8 +12,8 @@ import {
   Modal,
   CompassCursor,
 } from "../shared/ui";
-import compassImg from "@/assets/upload-1794344353164-1.jpg";
-import aboutPhoto from "@/assets/upload-1794344353164-2.jpg";
+import compassImg from "@/assets/upload-1794346350293-1.jpg";
+import aboutPhoto from "@/assets/upload-1794346350293-2.jpg";
 
 function CaseCarousel({ images, title }: { images: string[]; title: string }) {
   const [index, setIndex] = useState(0);
@@ -171,7 +171,7 @@ export default function Portfolio({ config }: TemplateProps) {
           </h2>
           <div className="portfolio-about-photo">
             <div className="image-wrap">
-              <Photo name={aboutPhoto} alt="Alessandra Pereira, consultora de estratégia, marca e crescimento" />
+              <Photo name={aboutPhoto} alt="Alessandra Pereira, consultora de estratégia, marca e crescimento, em retrato pessoal" />
             </div>
             <p>
               Sou Alessandra Pereira, consultora de estratégia, marca e
