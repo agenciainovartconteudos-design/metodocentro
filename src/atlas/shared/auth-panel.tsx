@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import type { TemplateConfig } from "../types";
 import { Brand, Button, Photo, useToast } from "./ui";
+import compassImg from "@/assets/upload-1794343255644-1.jpg";
 export function AuthPanel({
   config,
   onEnter,
@@ -42,6 +43,14 @@ export function AuthPanel({
           </span>
           <h1>{config.content.headline}</h1>
           <p>{config.content.visualDescription || config.content.description}</p>
+          <span className="auth-pill" style={{ marginTop: 14 }}>
+            <img
+              src={compassImg}
+              alt="Bússola antiga dourada, símbolo de direção e estratégia"
+              style={{ width: 20, height: 20, objectFit: "cover", borderRadius: "50%" }}
+            />
+            Sua bússola estratégica
+          </span>
           <div className="auth-visual-bottom">
             <span>{config.content.visualFooter || config.branding.tagline}</span>
           </div>
