@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "templateId": "courses",
+  "locale": "pt-BR",
+  "branding": {
+    "name": "Eleva",
+    "shortName": "E",
+    "tagline": "UM NOVO PASSO, TODOS OS DIAS"
+  },
+  "theme": {
+    "mode": "light",
+    "accent": "#7061cc",
+    "accentText": "#ffffff",
+    "background": "#f5f4fa",
+    "surface": "#ffffff",
+    "text": "#18232d",
+    "muted": "#73808e",
+    "line": "#152a3b12",
+    "serif": false,
+    "radius": 14
+  },
+  "content": {
+    "headline": "O que você vai aprender hoje?",
+    "description": "Escolha seu próximo passo e siga no seu ritmo.",
+    "eyebrow": "UM NOVO PASSO, TODOS OS DIAS",
+    "cta": "Começar agora",
+    "heroImage": "education.webp"
+  },
+  "collections": {
+    "courses": [
+      {
+        "id": "1",
+        "title": "Design que resolve",
+        "category": "Design",
+        "person": "Marina Costa",
+        "progress": 45,
+        "duration": "8 aulas",
+        "image": "abstract.webp",
+        "description": "Uma introdução prática a decisões visuais, composição e hierarquia."
+      },
+      {
+        "id": "2",
+        "title": "Marca com propósito",
+        "category": "Negócios",
+        "person": "Rafael Lima",
+        "progress": 20,
+        "duration": "6 aulas",
+        "image": "education.webp",
+        "description": "Construa uma direção clara para sua marca e a comunicação do seu negócio."
+      },
+      {
+        "id": "3",
+        "title": "Espaços criativos",
+        "category": "Criatividade",
+        "person": "Clara Alves",
+        "progress": 0,
+        "duration": "5 aulas",
+        "image": "architecture.webp",
+        "description": "Encontre referências e organize um processo criativo que funciona para você."
+      }
+    ]
+  }
+}
